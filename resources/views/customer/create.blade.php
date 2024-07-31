@@ -16,6 +16,8 @@
 
     <form action="{{route('customer.store')}}" method="post">
         @csrf
+
+
         <div class="mb-3">
             <label for="customer_id" class="form-label">CustomerID</label>
             <input type="text" class="form-control" id="customer_id"  name="customer_id" aria-describedby="emailHelp">
